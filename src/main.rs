@@ -31,5 +31,8 @@ fn main() {
     // extra_programs::eiddiscount::eiddiscount();
     
     // practice_work::positive_negative_number_check::positive_negative_number_check(1);
-
+    // practice_work::resturnet_practice::resturent();
+    // practice_work::string_multirun::string_merathon();
+    // practice_work::my_way_of_pattren::pattren();
+    practice_work::dynamic_fibonacci_series::fibonacci();
 }
