@@ -1,3 +1,6 @@
+#[allow(non_snake_case)]
+#[allow(dead_code)]
+
 pub fn positive_negative_number_check(number:i32)
 {
 

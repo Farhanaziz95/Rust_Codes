@@ -1,3 +1,7 @@
+#[allow(non_snake_case)]
+#[allow(dead_code)]
+
+
 pub fn Question5()
 {
  let student_data: (&str , i8 , &str , &str ) =  ("Farhan Aziz",24,"IOT051142","6:45 to 9:45");

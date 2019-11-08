@@ -1,4 +1,13 @@
+#[allow(non_snake_case)]
+#[allow(dead_code)]
+
+
 use std:: io;
+
+#[allow(non_snake_case)]
+#[allow(dead_code)]
+#[allow(unused_mut)]
+#[allow(unused_variables)]
 
 pub fn eiddiscount(){
    

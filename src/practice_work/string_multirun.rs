@@ -1,5 +1,8 @@
 use std::io;
 
+#[allow(non_snake_case)]
+#[allow(dead_code)]
+
 pub fn string_merathon() {
     
     println!("Enter Any String?");
@@ -13,7 +16,7 @@ pub fn string_merathon() {
      io::stdin().read_line(&mut toberun)
          .expect("Failed to read line");
 
-     let mut toberun: u32 = toberun.trim().parse()
+     let toberun: u32 = toberun.trim().parse()
          .expect("Please type a number!");
 
     let mut count = 0;

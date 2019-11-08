@@ -1,3 +1,7 @@
+#[allow(non_snake_case)]
+#[allow(dead_code)]
+
+
 pub fn Question4()
 {
     let value1 = 45.87;

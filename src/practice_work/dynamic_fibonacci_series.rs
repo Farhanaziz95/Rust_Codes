@@ -26,11 +26,11 @@ pub fn fibonacci() {
     io::stdin().read_line(&mut toberun)
         .expect("Failed to read line");
 
-    let mut toberun: u32 = toberun.trim().parse()
+    let toberun: u32 = toberun.trim().parse()
         .expect("Please type a number!");
 
 
-    while(count < toberun)
+    while count < toberun 
     {
         let c = b + a ;
 

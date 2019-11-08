@@ -1,3 +1,7 @@
+#[allow(non_snake_case)]
+#[allow(dead_code)]
+
+
 pub fn Question6()
 {
     let week_days = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];

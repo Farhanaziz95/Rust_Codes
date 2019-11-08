@@ -1,3 +1,7 @@
+#[allow(non_snake_case)]
+#[allow(dead_code)]
+
+
 pub fn question3()
 {
     let first_name : &str = "Farhan";

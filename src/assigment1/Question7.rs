@@ -1,3 +1,7 @@
+#[allow(non_snake_case)]
+#[allow(dead_code)]
+
+
 pub fn Question7()
 {
     let arry1 = [1,2,3,4,5,6,7];

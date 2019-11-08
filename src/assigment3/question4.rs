@@ -1,3 +1,7 @@
+
+#[allow(non_snake_case)]
+#[allow(dead_code)]
+
 pub mod assigment 
 {
     pub mod a
@@ -11,7 +15,7 @@ pub mod assigment
             v.push("Vector is a growable array");
             v.push("It stores the data on the heap");
 
-            while (!v.is_empty())
+            while !v.is_empty()
             {
                 let total_lenth = v.len();
                 println!("Element on Vector Before Print : {}",total_lenth );
@@ -43,6 +47,9 @@ pub mod assigment
     }
 
 }
+
+#[allow(non_snake_case)]
+#[allow(dead_code)]
 
 pub fn question4()
 {

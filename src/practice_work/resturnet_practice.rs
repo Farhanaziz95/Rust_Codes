@@ -1,4 +1,8 @@
 use std::io;
+
+#[allow(non_snake_case)]
+#[allow(dead_code)]
+
 pub fn resturent() {
 
     let zinger = 200;
@@ -16,7 +20,7 @@ pub fn resturent() {
      io::stdin().read_line(&mut toberun)
          .expect("Failed to read line");
 
-     let mut toberun: u32 = toberun.trim().parse()
+     let toberun: u32 = toberun.trim().parse()
          .expect("Please type a number!");
 
          
@@ -25,7 +29,7 @@ pub fn resturent() {
      io::stdin().read_line(&mut quentity)
          .expect("Failed to read line");
 
-     let mut quentity: u32 = quentity.trim().parse()
+     let quentity: u32 = quentity.trim().parse()
          .expect("Please type a number!");
 
          if toberun == 1
